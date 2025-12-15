@@ -2,6 +2,7 @@
 **ColabPCR**: A validated Google Colaboratory Notebook for Reproducible and Precise Primer Design
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](  https://colab.research.google.com/github/maurijlozano/ColabPRC/blob/main/ColabPCR.ipynb)
+[![DOI](https://zenodo.org/badge/1116805347.svg)](https://doi.org/10.5281/zenodo.17939353)
 
 ColabPCR, a program designed to optimize the selection and evaluation of primers for a defined target genomic region. 
 ColabPCR features:
