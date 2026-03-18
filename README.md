@@ -1,14 +1,16 @@
 # ColabPRC
 ## **ColabPCR**: A validated Google Colaboratory Notebook for Reproducible and Precise Primer Design
 [![DOI](https://zenodo.org/badge/1116805347.svg)](https://doi.org/10.5281/zenodo.18034799)
+[![bioRxiv DOI](https://img.shields.io/badge/DOI-10.1101/2021.01.08.425840-B31B1B.svg)](https://doi.org/10.64898/2025.12.23.696274)
 
-ColabPCR, a program designed to optimize the selection and evaluation of primers for a defined target genomic region. 
-ColabPCR features:
-* refinement of primer length and melting temperature parameters using Primer3 software
-* quantification of the number of potential off-target binding regions within the target genome via BLASTn analysis
-* integration of restriction enzyme recognition sites at the 5’ ends of primers
-* generation of a restriction analysis report of the intended amplification region
-* GUI utilizing Google Colab's computational resources to ensure high performance and accessibility without requiring local software installation.
+ColabPCR is a specialized Python-based Google Colaboratory notebook designed for reproducible and precise primer design in molecular biology. It streamlines the process of creating and evaluating primers for PCR (Polymerase Chain Reaction) experiments without requiring local software installation.
+
+Main features:
+* Centralizes primer design, specificity evaluation, and restriction enzyme analysis within a single, user-friendly interface
+* Uses Primer3 to refine primer length and melting temperature, and BLASTn to quantify potential off-target binding regions within a target genome
+* Automatically downloads target genomes from NCBI using assembly accession numbers and extracts target sequences based on locus tags or genomic coordinates
+* Validation studies on the Daucus carota genome showed significantly improved PCR success rates by identifying and excluding primers with unintended off-target binding.
+* Leverages Google Colab's computational power, making high-performance tools accessible to researchers through just a web browser
 
 <br><br>
 ColabPCR can be run locally as a Jupyter notebook ([how to install Jupyter](https://jupyter.org/install)), in Microsoft Code or Google's Antigravity. <br>
