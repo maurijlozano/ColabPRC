@@ -12,12 +12,12 @@ ColabPCR features:
 
 <br><br>
 ColabPCR can be run locally as a Jupyter notebook ([how to install Jupyter](https://jupyter.org/install)), in Microsoft Code or Google's Antigravity. <br>
-To run directly on Google Collaboratory just click the following button.
+To run directly on Google Colaboratory just click the following button.
 <br>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](  https://colab.research.google.com/github/maurijlozano/ColabPRC/blob/main/ColabPCR.ipynb)
 
 ## Manual
-To run ColabPCR in Google Collaboratoy click the open in Colab buton. A Colab webpage with the notebook will be loaded.
+To run ColabPCR in Google Colaboratoy click the open in Colab buton. A Colab webpage with the notebook will be loaded.
 The notebook is organized in blocks that perform different tasks. The blocks must be run in orther by filling the from optinos and clicking the "_play_" buton in the left corner.
 * The 1st block: "_Install software and load functions_" will install all the required dependencies and load the required python functions and libraries.
 * The 2nd block: '_Download target genome_' will download the target genome specified either by NCBI assembly accession number, load a local file, upload a file to Colab, or download preset _Daucus carota_ genomes. This block also prints the available replicons/chromosomes and their zero based index (cindex) that will be required later.
