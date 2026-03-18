@@ -1,7 +1,7 @@
 # ColabPRC
 ## **ColabPCR**: A validated Google Colaboratory Notebook for Reproducible and Precise Primer Design
 [![DOI](https://zenodo.org/badge/1116805347.svg)](https://doi.org/10.5281/zenodo.18034799)
-[![bioRxiv DOI](https://img.shields.io/badge/DOI-10.1101/2021.01.08.425840-B31B1B.svg)](https://doi.org/10.64898/2025.12.23.696274)
+[![bioRxiv DOI](https://img.shields.io/badge/bioRxiv_DOI-10.64898/2025.12.23.696274-red)](https://doi.org/10.64898/2025.12.23.696274)
 
 ColabPCR is a specialized Python-based Google Colaboratory notebook designed for reproducible and precise primer design in molecular biology. It streamlines the process of creating and evaluating primers for PCR (Polymerase Chain Reaction) experiments without requiring local software installation.
 
